@@ -1,11 +1,11 @@
 var sea,ship;
 var seaImg,shipImg1;
-var S;
+
 function preload(){
   //uncomment the code to add animation to ship 
 
   shipImg1 = loadAnimation("ship-1.png","ship-1.png","ship-2.png","ship-2.png");
- S = loadSound("Horn.mp3");
+
   seaImg = loadImage("sea.png");
 }
 
@@ -39,12 +39,7 @@ function draw() {
   }
  
   
- if(keyDown("H"))
- {
-
  
-  S.play();
- }
   drawSprites();
 }
 
